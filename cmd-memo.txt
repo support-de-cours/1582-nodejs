@@ -1,0 +1,27 @@
+clear               Nettoyer le terminal
+pwd                 Print Work Directory / Affiche le nom du répertoire du pointeur
+ls                  List / Liste le contenue du répertoire 
+ls -la              Liste le contenue du répertoire avec plus de détails
+cd                  Change Directory 
+cd ~                Retour sur le répertoire utilisateur
+cd /                Accès à la racine du disque
+cd path/dir         Accès au répertoire "dir" dans le répertoire "path"
+cd ./               Reste dans le répertoire courrant 
+cd ../              Accès au répertoire parent
+
+vim fichier.txt     Ouvre le fichier "fichier.txt"
+i                   Pour entrer en mode INSERTION
+echap               Pour quitter le mode INSERTION
+:                   Passage de commande pour VIM
+:w                  Pour enregistrer les modifications
+:q                  Pour quitter l'editeur VIM
+
+rm fichier.txt      ReMove / supprime un fichier de façon definitive
+rm -rf dir/         Supprime (-r) de façon recurssive (-f) avec forçage le répertoire "dir" et son contenue
+
+mkdir               MaKeDIRectory / Création d'un répertoire
+
+mv source target    MV Deplace un fichier ou un répertoire du chemin "source" vers le chemin "target"
+
+
+Fleche Haut / Bas pour naviguer dans l'historique des commandes

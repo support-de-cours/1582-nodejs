@@ -1,0 +1,23 @@
+npm init            Initialise un projet NodeJS
+
+npm install <lib>   Installe la ressource "lib"
+                    ex: npm install bootstrap
+                    ex: npm i bootstrap
+
+npm update          Mise à jour des librairie
+
+node fichier.js     Execute le fichier "fichier.js"
+
+
+
+
+// -----------------------------------------------------------------------------
+
+C://programmes/node_modules
+C://programmes/node_modules/fs.js
+C://Users/Bobby/node_modules 
+C://Users/Bobby/node_modules/fs.js
+C://Users/Bobby/MyWorks/MyNodeProject/node_modules
+C://Users/Bobby/MyWorks/MyNodeProject/node_modules/fs.js
+C://Users/Bobby/MyWorks/MyNodeProject/index.js
+
