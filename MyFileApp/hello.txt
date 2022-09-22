@@ -1,2 +1,8 @@
+Ceci est un texte au début du fichier.
+Ceci est un texte au début du fichier.
+Ceci est un texte au début du fichier.
+Ceci est un texte au début du fichier.
+Ceci est un texte au début du fichier.
+Ceci est un texte au début du fichier.
 Hello there !
 lorem ipsum... blah blah blah..Hello Bobby !!
