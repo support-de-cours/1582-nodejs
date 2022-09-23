@@ -45,17 +45,22 @@ const request = https.request(options, response => {
         // Recupération du prix du BTC dans la devise souhaité
         const price = bpi[currency];
 
-        // Si "price" contient une donnée, on affiche le taux de change
-        if (price)
-        {
-            console.log( `1 BTC vaux ${price.rate} ${currency}` );
-        }
+        // // Si "price" contient une donnée, on affiche le taux de change
+        // if (price)
+        // {
+        //     console.log( `1 BTC vaux ${price.rate} ${currency}` );
+        // }
 
-        // si "price " ne contient pas de donnée on affiche une message de devise inconnu
-        else 
-        {
-            console.log("La devise est inconnue");
-        }
+        // // si "price " ne contient pas de donnée on affiche une message de devise inconnu
+        // else 
+        // {
+        //     console.log("La devise est inconnue");
+        // }
+
+        price 
+            ? console.log( `1 BTC vaux ${price.rate} ${currency}` )
+            : console.log("La devise est inconnue")
+        ;
     });
 });
 
