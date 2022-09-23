@@ -4,6 +4,10 @@ npm install <lib>   Installe la ressource "lib"
                     ex: npm install bootstrap
                     ex: npm i bootstrap
 
+npm install <lib> -g    Installe la ressource "lib" de façon globale
+
+
+
 npm update          Mise à jour des librairie
 
 node fichier.js     Execute le fichier "fichier.js"
