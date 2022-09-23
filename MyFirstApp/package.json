@@ -4,7 +4,7 @@
   "description": "Ma premiere app NodeJS",
   "main": "index.js",
   "scripts": {
-    "git": "cd ../; git add *; git commit -m \"-\"; git push; cd MyFirstApp",
+    "git": "cd ../; git add *; git commit -m \"-\"; git push; cd MyFirstApp; clear;",
     "start": "clear; node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
