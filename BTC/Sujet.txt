@@ -14,10 +14,13 @@ Pour afficher le taux de change du BTC
 // - Possibilité d'erreur sur le paramètre de devise
 
 
+
+
 node btc.js currency=EUR 
 node btc.js currency=USD 
 node btc.js currency=GPB 
 node btc.js
+node btc.js currency=YEN 
 
 
 1 BTC vaut XXXX EUR
