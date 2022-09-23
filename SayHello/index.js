@@ -15,9 +15,10 @@
 
 const args = require('./utils/args');
 
-console.log( args.name );
+const port = args.port;
+
+console.log( port );
 
 
 // const data = args();
 // console.log( data.age );
-

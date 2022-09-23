@@ -1,0 +1,23 @@
+Objectif:
+Créer une requete sur l'adresse "https://api.coindesk.com/v1/bpi/currentprice.json"
+Pour afficher le taux de change du BTC
+
+
+// Préparation du script:
+// Recupération des information importantes permettant l'ecriture du script
+
+// - recrehce sur les module HTTP et HTTPS de Node
+// - Resultat au format app/js 
+// - Resultat a convertir en JSON
+// - Definir un taux par defaut "USD"
+// - Possibilité de passage de paramètre e devise "USD", "EUR" et "GPB"
+// - Possibilité d'erreur sur le paramètre de devise
+
+
+node btc.js currency=EUR 
+node btc.js currency=USD 
+node btc.js currency=GPB 
+node btc.js
+
+
+1 BTC vaut XXXX EUR
