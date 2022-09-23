@@ -9,7 +9,7 @@ Pour afficher le taux de change du BTC
 // - recrehce sur les module HTTP et HTTPS de Node
 // - Resultat au format app/js 
 // - Resultat a convertir en JSON
-// - Definir un taux par defaut "USD"
+// - Definir un devise par defaut "USD"
 // - Possibilité de passage de paramètre e devise "USD", "EUR" et "GPB"
 // - Possibilité d'erreur sur le paramètre de devise
 
@@ -21,6 +21,7 @@ node btc.js currency=USD
 node btc.js currency=GPB 
 node btc.js
 node btc.js currency=YEN 
+node btc.js currency=42 
 
 
 1 BTC vaut XXXX EUR
