@@ -6,6 +6,11 @@ npm install <lib>   Installe la ressource "lib"
 
 npm install <lib> -g    Installe la ressource "lib" de façon globale
 
+npm i <pkg>             Installe le paquet dans le répertoire "node_modules" locale du projet,
+                        Inscription du paquet dans le registre des dépendances.
+npm i <pkg> --save-dev  Installe le paquet dans le répertoire "node_modules" locale du projet 
+                        Inscription du paquet dans le registre des dépendances de developpement.
+npm i <pkg> -g          Installe le paquet dans le répertoire "node_modules" globale de l'ordinateur
 
 
 npm update          Mise à jour des librairie
